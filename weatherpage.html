@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: auto;
+            max-width: max-content;
+            text-align: center;
+        }
+        .content-heading p, .content-heading h2{
+            font-weight: 400;
+        }
+        h1{
+            color:  rgb(26,100,214);
+            font-size: 38px;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+           line-height: 40px;
+           font-size: 36px;
+           margin: 0;
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        h3,h4,h5{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif; 
+            margin: 0px;
+        }
+      .main_container p{
+        color: rgb(76,76,76);
+      }
+        .first-content,.second-content,.third-content{
+            font-size: 18px;
+            line-height: 30px;
+            font-family: monospace;  
+            transition: all 200ms ease-in-out; 
+            height: 12vh;
+            margin: 20px 0; 
+            padding: 20px;
+        }
+        .first-content:hover, .second-content:hover, .third-content:hover{
+            background-color:rgb(255,251,239) ;
+        }
+        .footer_container p{
+            font-family: monospace;
+            font-size: 20px;
+            opacity: 0.7;
+            color: rgb(76,76,76) ;
+        }
+
+         button{
+            background-color: rgb(26, 100, 215);
+            color:white;
+            font-size: 16px;
+            padding: 18px 30px;
+            border: 1px solid rgb(26,100,214);
+            border-radius: 30px; 
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: white;
+            color: rgb(26,100,214);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="content-heading">
+            <h1>⛅
+            <br>
+            Currently 21° in Tokyo <br> </h1>
+            <h2>13° / <strong> 23°</strong></h2>
+            
+        </div>
+    </header>
+    <main class="main_container">
+        <div class="first-content">
+            <h3>🌧Tomorrow  </h3>
+            <p>10° /  <strong> 22°</strong></p>
+        </div>
+        <div class="second-content">
+            <h4>🌥 Saturday</h4>
+            <p>15° / <strong> 17°</strong></p>
+        </div>
+        <div class="third-content">
+          <h5>☀️ Sunday</h5>  
+            <p>25° / <strong>28°</strong></p>
+        </div>
+    </main>
+    <footer class="footer_container">
+        <button>Change city</button>
+        <p>Coded by Amarachi Opara</p>
+    </footer>
+</body>
+</html>
