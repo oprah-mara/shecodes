@@ -134,16 +134,34 @@
     // else {
     //     alert("Good afternoon");
     // }brazil
-let countryName = prompt("What country are you from?");
-countryName = countryName.toLowerCase().trim();
+// let countryName = prompt("What country are you from?");
+// countryName = countryName.toLowerCase().trim();
 
-if (countryName === "brazil" || countryName === "portugal"){
-    alert('You speak Portuguese');
-}
-else {
-    alert('You dont speak Portuguese')
-}
+// if (countryName === "brazil" || countryName === "portugal"){
+//     alert('You speak Portuguese');
+// }
+// else {
+//     alert('You dont speak Portuguese')
+// }
+// function greetUser(){
+//    let name = prompt("whats your name?");
+//    if (name === "Amarachi"){
+//     alert("Beautiful Name");
+//    }
+// }
+// greetUser();
 
+function askForCountry(){
+    let country = prompt("What is your Country?").toLowerCase().trim();
+
+    if (country === "brazil" || country === "portugal"){
+        alert("You speak Portuguese");
+    }
+    else {
+        alert("Go learn Portuguese!");
+    }
+}
+askForCountry();
 
 
 
