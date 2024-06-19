@@ -151,17 +151,50 @@
 // }
 // greetUser();
 
-function askForCountry(){
-    let country = prompt("What is your Country?").toLowerCase().trim();
+// function askForCountry(){
+//     let country = prompt("What is your Country?").toLowerCase().trim();
 
-    if (country === "brazil" || country === "portugal"){
-        alert("You speak Portuguese");
+//     if (country === "brazil" || country === "portugal"){
+//         alert("You speak Portuguese");
+//     }
+//     else {
+//         alert("Go learn Portuguese!");
+//     }
+// }
+// askForCountry();
+
+
+// function userContact(){
+//     let name = prompt("What is your name?");
+//     let age = prompt("What is your age?");
+
+//     if (age >= 18){
+//         h1.innerHTML = "Hi " + name + " welcome to SheCodes!"
+//     }
+//     else{
+//         h1.innerHTML = "Sorry " + name + " you cannot join SheCodes"
+//     }
+// }
+
+// let contactButton = document.querySelector ("button");
+// contactButton.addEventListener ("click", userContact)
+// let h1 = document.querySelector("h1");
+
+let userButton = document.querySelector("button");
+userButton.addEventListener ("click", contactUser)
+let h1 = document.querySelector ("h1");
+
+function contactUser(){
+    let name = prompt ("what is your name?");
+    let age = prompt ("what is your age");
+    
+    if (age >= 18){
+        h1.innerHTML = "welcome " + name + "!"
     }
     else {
-        alert("Go learn Portuguese!");
+        h1.innerHTML = "Sorry " + name + " you cant join Shecodes!"
     }
 }
-askForCountry();
 
 
 
