@@ -8,224 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b8c23fd941.js" crossorigin="anonymous"></script>
-    <style>
-        *{
-            margin: 0;
-        }
-        
-       
-        #top-paragraph{
-          background-color: rgb(2,29,73);
-          color: white;
-          font-size: 12px ;  
-          text-align: center;
-          font-family:"Poppins", sans-serif ;
-        }
-        .content-header{
-            display: flex;
-            justify-content: space-around;
-            gap: 40vw;
-            padding: 8px;
-            
-                    
-        }
-        h3{
-            color:  rgb(2,29,73);
-            font-size: 36px;
-            font-family: serif;
-
-        }
-        .headerButton{
-            background-color: rgb(255,71,0);
-            color: white;
-            font-family: "Poppins", sans-serif;
-            font-weight: 600;
-            padding: 0 20px;
-            border-color: rgb(255,71,0);
-            border-radius: 10px;
-            box-shadow: 3px 3px 3px  rgb(2,29,73);     
-            transition: all 250ms ease-in-out;
-        }
-        .headerButton:hover{
-            cursor: pointer;
-            background-color: white;
-            color:  rgb(2,29,73);
-            box-shadow: none;
-            border-color:  rgb(2,29,73);
-        }
-       
-        .sweetkickimg{
-           rotate: 180deg;
-            position: relative;
-            left: 55vw;
-            mix-blend-mode: multiply;
-           
-          
-        }
-        .content{
-            background-color: rgb(234,234,242);
-        }
-        .sub-content-one{
-            color:  rgb(2,29,73);
-            font-family:"Poppins", sans-serif ;
-            width: 38vw;
-            position: relative;
-            bottom: 50vh;
-            left: 10em;
-        }
-        h1{
-            font-size: 48px;
-        }
-        .sub-content-one p{
-            font-weight: 600;
-            font-size: 18px;
-        }
-        .sub-content-two{
-            position: relative;
-            bottom: 40vh;
-            left: 10em;
-            font-family: "Poppins" ;
-            width: 38vw;
-
-        }
-        .sub-content-two p{
-            color:  rgb(2,29,73);
-        }
-        .main-button{
-            background-color: rgb(255,71,0);
-            color: white;
-            font-family: "Poppins", sans-serif;
-            font-weight: 600;
-            padding: 6px 8vw;
-            border-color: rgb(255,71,0);
-            border-radius: 6px;
-            box-shadow: 1.5px 1.5px 3px  rgb(2,29,73);  
-            transition: all 250ms ease-in-out;
-             
-        }
-        .main-button:hover{
-            cursor: pointer;
-            background-color: white;
-            color: black;
-            box-shadow: none;
-            border-color: black;
-        }
-        #rating{
-            margin: 0 0 6px 20px;
-            font-weight: 500;
-
-        }
-        #shipping{
-            margin: 1em 0 0 10em;
-            font-size: 14px;
-            font-weight: 500;
-        }
-        .sub-content-two p:last-child{
-            margin-left: 3.8em;
-            font-size: 14px;
-            font-weight: 500;
-        }
-        .footer-content{
-            display: flex;
-            height: 12vh;
-            align-items: center;
-            gap: 10em;
-            background-color: rgb(2,29,74);
-
-        }
-        h2{
-            color: white;
-            font-family: "Poppins", sans-serif ;
-            font-size: 38px;
-            margin-left: 5em;
-
-        }
-        .footer-button{
-            background-color: white;
-            color: rgb(2,29,73);
-            font-family: "Poppins", sans-serif;
-            font-size: 1em;
-            font-weight: 600;
-            padding: 10px 30px;
-            border-color: rgb(255,71,0);
-            border-radius: 6px;
-            box-shadow: 3px 3px 3px  rgb(255,71,0) ;  
-            transition: all 250ms ease-in-out;
-        }
-        .footer-button:hover{
-            cursor: pointer;
-
-        }
-        .sweetkick-balancePowder{
-            border: 2px solid rgb(247,247,247);
-            width: fit-content;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            font-family: "poppins";
-            border-radius: 12px;
-            box-shadow: 8px 8px 8px rgb(250,250,250);
-           
-        }
-        .balancePowderImg{
-            border-radius: 12px;
-
-        }
-        .sweetkick-ptags p:first-child{
-            font-weight: 500;
-            font-size: 20px;
-
-        }
-        .sweetkick-ptags p:last-child{
-            font-size: 14px;
-        }
-        .balancePowder-button{
-            background-color: rgb(255,71,0);
-            color: white;
-            font-family: "Poppins", sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            width: 100%;
-            padding: 16px 0;
-            border: 1px solid rgb(2,29,73) ;
-            border-radius: 12px;
-            box-shadow: 4px 4px 3px  rgb(2,29,73);  
-            transition: all 250ms ease-in-out;
-             
-        }
-        .balancePowder-button:hover{
-            cursor: pointer;
-            background-color:  rgb(2,29,73);
-            color: white;
-            box-shadow: 4px 4px 3px  rgb(2,29,73);
-            border-color: black;
-        }
-        .dollarsign{
-            text-align: center;
-            margin-top: 1rem;
-            font-size: 14px;
-
-        }
-        .fivestars{
-            color: rgb(255,71,0);
-            font-size: 13px;
-        }
-        .bestseller-products{
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            margin-block: 4rem;
-            background-color: rgb(254,254,254);
-            
-            
-        }
-
-        
-       
-       
-
-    </style>
+    <link rel="stylesheet" href="sweetkick.css">
 </head>
 <body>
     
@@ -259,9 +42,9 @@
             <div class="sweetkick-ptags">
                 <p>Body Balance Powder</p>
                 <p class="fivestars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> (Reviews)</p>
-                <p> Your new daily ritual to help get the <br>
-                    day started with a focus on healthy <br>
-                    energy, prebiotics while supporting <br>
+                <p> Your new daily ritual to help get the
+                    day started with a focus on healthy 
+                    energy, prebiotics while supporting 
                     healthy glucose levels.
                 </p>
             </div>
@@ -270,14 +53,14 @@
         </div>
     
         <div class=" sweetkick-balancePowder">
-            <img src="https://sweetkick.com/cdn/shop/products/Bundles0554-Edit-228664_600x600.jpg?v=1675829028" alt="balance powder" width="250" class="balancePowderImg">
+            <img src="https://sweetkick.com/cdn/shop/products/Sean-Sweet-Kick0148-1_1-636272_600x600.jpg?v=1657654865" alt="balance powder" width="250" class="balancePowderImg">
             <div class="sweetkick-ptags">
-                <p>Body Balance Powder</p>
+                <p>Macro Shake</p>
                 <p class="fivestars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> (Reviews)</p>
-                <p> Your new daily ritual to help get the <br>
-                    day started with a focus on healthy <br>
-                    energy, prebiotics while supporting <br>
-                    healthy glucose levels.
+                <p> The perfect balance of high-quality 
+                    proteins, carbohydrates, fiber,
+                     prebiotics, and essential fats all in
+                      a convenient.
                 </p>
             </div>
                 <span class="dollarsign">$21</span>
@@ -285,32 +68,33 @@
         </div>
     
         <div class=" sweetkick-balancePowder">
-            <img src="https://sweetkick.com/cdn/shop/products/Bundles0554-Edit-228664_600x600.jpg?v=1675829028" alt="balance powder" width="250" class="balancePowderImg">
+            <img src="https://sweetkick.com/cdn/shop/products/Bundles0296_2_v1-160827_600x600.jpg?v=1664835998" alt="balance powder" width="250" class="balancePowderImg">
             <div class="sweetkick-ptags">
-                <p>Body Balance Powder</p>
+                <p>The Sugar Reset</p>
                 <p class="fivestars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> (Reviews)</p>
-                <p> Your new daily ritual to help get the <br>
-                    day started with a focus on healthy <br>
-                    energy, prebiotics while supporting <br>
-                    healthy glucose levels.
+                <p> Get back on track and start 
+                    focusing on healthier habits,
+                     reducing cravings and healthy 
+                      glucose levels with our best selling 
+                      14 day program.
                 </p>
             </div>
-                <span class="dollarsign">$21</span>
+                <span class="dollarsign">$59</span>
                 <button class="balancePowder-button">add to cart</button>  
         </div>
     
         <div class=" sweetkick-balancePowder">
-            <img src="https://sweetkick.com/cdn/shop/products/Bundles0554-Edit-228664_600x600.jpg?v=1675829028" alt="balance powder" width="250" class="balancePowderImg">
+            <img src="https://sweetkick.com/cdn/shop/products/Bundles0607-Edit-144788_600x600.jpg?v=1660339697" alt="balance powder" width="250" class="balancePowderImg">
             <div class="sweetkick-ptags">
-                <p>Body Balance Powder</p>
+                <p>Sugar Control Tablets</p>
+                <p id="peppermintcool">Peppermint Cool</p>
                 <p class="fivestars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> (Reviews)</p>
-                <p> Your new daily ritual to help get the <br>
-                    day started with a focus on healthy <br>
-                    energy, prebiotics while supporting <br>
-                    healthy glucose levels.
+                <p> Designed to to remove the taste of <br>
+                     sweetness and help you combat <br>
+                      cravings before they even kick in.
                 </p>
             </div>
-                <span class="dollarsign">$21</span>
+                <span class="dollarsign">$20</span>
                 <button class="balancePowder-button">add to cart</button>  
         </div>
     </div>
